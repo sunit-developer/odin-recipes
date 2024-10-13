@@ -1,4 +1,10 @@
-/* Applying "Verdana" as the fonts for my project website, and then using "sans-serif" as the fallback font family. */
+/* Applying "Verdana" as the fonts for my project website, and then using "sans-serif" as the fallback font family, and light cream color as the project background. */
 * {
     font-family: Verdana, sans-serif;
+    background-color: #fffdd0;
+}
+
+/* Headings are of Dark Green color */
+h1, h2, h3 {
+    color: #004d00;
 }

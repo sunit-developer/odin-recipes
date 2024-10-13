@@ -1,0 +1,4 @@
+/* Applying "Verdana" as the fonts for my project website, and then using "sans-serif" as the fallback font family. */
+* {
+    font-family: Verdana, sans-serif;
+}

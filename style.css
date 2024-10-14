@@ -1,0 +1,34 @@
+/* Applying "Verdana" as the fonts for my project website, and then using "sans-serif" as the fallback font family, and light cream color as the project background. */
+* {
+    font-family: Verdana, sans-serif;
+    background-color: #fffdd0;
+}
+
+/* Headings are of Dark Green color, center-aligned, and have a margin of 20px at the bottom */
+h1, h2, h3 {
+    color: #004d00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3.left-alignment { /* Level 3 headings are left-aligned, as opposed to center aligned like level 1 and 2 headings */
+   text-align: left; 
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px; /* Slightly larger font size */
+    line-height: 1.5; /* Increased line height for readability */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+/* Styles for Images */
+img {
+    max-width: 400px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+}
+

@@ -11,7 +11,7 @@ h1, h2, h3 {
     margin-bottom: 20px;
 }
 
-.left-alignment { /* Level 3 headings are left-aligned, as opposed to center aligned like level 1 and 2 headings */
+h3.left-alignment { /* Level 3 headings are left-aligned, as opposed to center aligned like level 1 and 2 headings */
    text-align: left; 
 }
 

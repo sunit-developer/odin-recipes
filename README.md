@@ -28,7 +28,7 @@ I used the element and class selectors to do the following decoration:
 
 ***************************** NOTE ********************************
 
-I manually backed up the old unstyled project by the name of odin-recipes-unstyled
+I manually backed up the old unstyled project by the name of odin-recipes-unstyled.
 
-It is available in the same named repository on my local machine and in github
+It is available in the same named repository on my local machine and in github.
 

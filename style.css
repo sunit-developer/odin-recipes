@@ -4,8 +4,44 @@
     background-color: #fffdd0;
 }
 
-.button-container { /* To center align all the links */
+.button-container { /* To center align the texts within all the three buttons */
     text-align: center;
+}
+
+.button-container a {
+    /* Changed 'a' elements' default 'inline' behavior to 'block', so that they can take up the full width and start at new line */
+    display: block; 
+
+    /* Changed the width of the three buttons, so that they don't take up the full width.
+       This looks more visually appealing. */
+    width: 300px;
+    
+    /* Adds 8px top-bottom margin and center-aligns the three buttons by giving them 'auto' margin on left-right */
+    margin: 8px auto;
+
+    /* Adds padding to the button */
+    padding: 12px 24px;
+
+    /* Removes underline from the links - the underline gets applied by default from the user agent, i.e., web-browser */
+    text-decoration: none; 
+
+    /* Dark Green background color for the buttons */
+    background-color: #004d00;
+
+    /* White text for the buttons */
+    color:#ffffff;
+
+    /* Removes default border */
+    border: none;
+
+    /* Gives the buttons rounded corners */
+    border-radius: 20px;
+}
+
+/* Added a hover effect.
+   When you hover over the button, it's color becomes darker green */
+.button-container a:hover {
+    background-color: #003300;
 }
 
 /* Headings are of Dark Green color, center-aligned, and have a margin of 20px at the bottom */

@@ -4,7 +4,7 @@
     background-color: #fffdd0;
 }
 
-.link-container {
+.button-container { /* To center align all the links */
     text-align: center;
 }
 

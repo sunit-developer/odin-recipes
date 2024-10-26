@@ -4,6 +4,10 @@
     background-color: #fffdd0;
 }
 
+.link-container {
+    text-align: center;
+}
+
 /* Headings are of Dark Green color, center-aligned, and have a margin of 20px at the bottom */
 h1, h2, h3 {
     color: #004d00;

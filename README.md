@@ -27,6 +27,7 @@ I used the element and class selectors to do the following decoration:
 -- Styled the images. See the comments for further details
 
 *************** UPDATE ON OCT 26, 2024 ******************
+
 -- Made the three links on my project homepage as 'Buttons'
 
 ***************************** NOTE ********************************
